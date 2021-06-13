@@ -1,0 +1,113 @@
+/*CSS Reset*/
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 970px;
+    min-height: 700px;
+    background-color: #1b335d;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header, .navBar, .main, .footer {
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.header {
+    width: 960px;
+    height: 100px;
+    background-color: #cf3036;
+    margin: 0px 0px 10px 10px;
+    align-content: center;
+
+}
+
+.header h1 {
+    margin: 30px 0px 0px 25px;
+    font-size: 2.3em;
+    color: #c2d6ec;
+    font-weight: 900;
+}
+
+.navBar {
+    width: 170px;
+    min-height: 280px;
+    background-color: #297d8c;
+    margin: 0px 0px 170px 10px;
+    padding: 10px;
+    
+}
+
+.navBar a {
+    color: #69dde4;
+    margin: 15px 0px 0px 10px;
+}
+
+.navBar ul, .navBar ul a {
+    margin: 10px 0px 0px 20px;
+    color: #69dde4;
+    font-size: .95em;
+    font-weight: 900;
+}
+.main {
+    width: 730px;
+    min-height: 470px;
+    background-color: #0e1822;
+    vertical-align: top;
+    margin: 0px 0px 0px 10px;
+    padding: 10px;
+}
+.main h2 {
+    font-size: 1.5em;
+    color: #c2d6ec;
+    margin: 25px 0px 0px 15px;
+}
+
+.main p {
+    font-size: 1em;
+    color: #c2d6ec;
+    margin: 15px 0px 0px 15px;
+}
+.main ul li a {
+    display: inline-block;
+    color: #69dde4;
+}
+
+
+
+.main p, .footer p, .main ul li {
+    color: #c2d6ec;
+    display:inline-block;
+}
+
+.mainList {
+    margin: 0px 0px 0px 35px;
+}
+
+em {
+    color: #7c8cfb;
+    font-weight: 900;
+}
+
+.footer {
+    width: 960px;
+    height: 100px;
+    background-color: #5d6673;
+    margin: 10px 10px 0px 5px;
+    vertical-align: bottom;
+}
+
+.footer p {
+    margin: 40px 0px 0px 25px;
+}
