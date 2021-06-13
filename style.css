@@ -19,7 +19,10 @@
     padding: 10px;
 }
 
-.header, .navBar, .main, .footer {
+.header,
+.navBar,
+.main,
+.footer {
     display: inline-block;
     border-radius: 25px;
 }
@@ -46,7 +49,7 @@
     background-color: #297d8c;
     margin: 0px 0px 170px 10px;
     padding: 10px;
-    
+
 }
 
 .navBar a {
@@ -54,12 +57,14 @@
     margin: 15px 0px 0px 10px;
 }
 
-.navBar ul, .navBar ul a {
+.navBar ul,
+.navBar ul a {
     margin: 10px 0px 0px 20px;
     color: #69dde4;
     font-size: .95em;
     font-weight: 900;
 }
+
 .main {
     width: 730px;
     min-height: 470px;
@@ -68,6 +73,7 @@
     margin: 0px 0px 0px 10px;
     padding: 10px;
 }
+
 .main h2 {
     font-size: 1.5em;
     color: #c2d6ec;
@@ -79,6 +85,7 @@
     color: #c2d6ec;
     margin: 15px 0px 0px 15px;
 }
+
 .main ul li a {
     display: inline-block;
     color: #69dde4;
@@ -86,9 +93,11 @@
 
 
 
-.main p, .footer p, .main ul li {
+.main p,
+.footer p,
+.main ul li {
     color: #c2d6ec;
-    display:inline-block;
+    display: inline-block;
 }
 
 .mainList {
